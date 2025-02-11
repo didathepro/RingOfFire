@@ -1,0 +1,34 @@
+.field {
+    width: 100vw;
+    height:100vh;
+    max-width:100%;
+    background-image: url("../../../public/playing_cards-master/board.jpg");
+    background-size:cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-stack {
+    position:relative;
+    >img {
+        position:absolute;
+        width:120px;
+
+    }
+}
+
+.top-card {
+    cursor:pointer;
+    transition: all 125ms ease-in-out;
+
+    &:hover {
+        filter:brightness(1.25);
+        transform:scale(1.1) translateY(-10px);
+    }
+}
+
+.pick-card {
+    transition:all 125ms ease-in-out;
+    transform: scale(1.5);
+}
