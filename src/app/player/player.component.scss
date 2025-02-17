@@ -2,7 +2,7 @@
     width:300px;
     display: flex;
     align-items: center;
-    background-color: orange;
+    background-color: rgb(133, 133, 132);
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
 
@@ -12,9 +12,13 @@
     }
 
     img {
-        width:100px;
-        width:100px;
+        width:70px;
+        width:70px;
         object-fit:cover;
         border-radius: 100%;
     }
+}
+
+.player-active {
+    background-color: orange !important;
 }
